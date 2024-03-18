@@ -5,7 +5,7 @@ const port = 3001;
 app.use(express.json())
 // Define a route
 app.get('/', (req, res) => {
-  res.send('Hello World!');
+  res.send('https://twf-final-project.vercel.app/api/minroute/mincostCalculate    and make a post request on postman');
 });
 
 // Use the mincostRoute middleware
